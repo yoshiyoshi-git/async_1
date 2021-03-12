@@ -1,0 +1,9 @@
+namespace async_1
+{
+    [Windows.UI.Xaml.Data.Bindable]
+    runtimeclass StringViewModel : Windows.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        StringViewModel();
+        String DataString;
+    }
+}

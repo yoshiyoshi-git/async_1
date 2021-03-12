@@ -1,0 +1,14 @@
+import "StringViewModel.idl";
+
+namespace async_1
+{
+    [default_interface]
+    runtimeclass MainPage : Windows.UI.Xaml.Controls.Page
+    {
+        MainPage();
+        StringViewModel SSync{ get; };
+        StringViewModel SAsync1{ get; };
+        StringViewModel SAsync2{ get; };
+        StringViewModel SAsync3{ get; };
+    }
+}
